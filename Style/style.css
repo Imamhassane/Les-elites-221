@@ -20,7 +20,8 @@ header img{
 }
 nav{
     margin-top: 20px;
-    float: right;    
+    float: right; 
+    margin-right: 2%;   
 }
 nav a {
     font-size: 14px;
@@ -52,13 +53,13 @@ nav li{
     position: absolute;
     width:280px;
     z-index: 1000;
-    height: 140px;
+    height: 160px;
     
 }
 .sous li{
     width: 100%;
-    margin-left: 5%;
-    margin-top: 15px;
+    margin-left: 0%;
+    margin-top: 25px;
 }
 .sous a{
     padding: 10px;
@@ -66,7 +67,7 @@ nav li{
     font-family: montserrat;
     font-weight: normal;
 }
- #icon{
+#icon{
     font-size: 30px;
    cursor: pointer;
    margin-top: 2%;
@@ -89,6 +90,7 @@ nav > ul li:hover .sous{
 h3{
     margin-top: 2%;
     margin-left: 28%;
+
     font-family:montserrat;
     color:  #ad8b3a;
 }
@@ -148,11 +150,8 @@ h1{
 }
 @media screen and (max-width:375px) {
     header {
-        
         position: relative;
-    
-        
-    }
+    }  
     nav{
         display: none;
     }
@@ -203,10 +202,8 @@ h1{
     }
 }
 @media screen and (min-width:376), (max-width:614px) {
-    header {
-    
+    header {   
         position: relative;
-       
     }
     nav{
         display: none;
