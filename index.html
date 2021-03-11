@@ -8,25 +8,29 @@
     <script src="sliderengine/jquery.js"></script>
     <script src="sliderengine/amazingslider.js"></script>
     <script src="sliderengine/initslider-1.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Tech 221</title>
 </head>
 <body>
     <header>
-        <img src="Images/Logo 5.png" alt="" style="margin-top: 5px; width: 100px;height: 75px;">
         <nav>
-           <ul>
-               <li><a href="#présentation-tech-221">Accueil</a></li>
-               <li class="deroulant"><a href="#">Nos formations</a>
+            <div class="logo"><img src="images/Logo 5.png" alt="" style="margin-top: 5px; width: 100px;height: 75px; cursor: pointer;"></div>
+            <div class="openMenu"><i class="fa fa-bars"></i></div>
+            <ul class="mainMenu">
+                <li><a href="#">Accueil</a></li>
+                <li class="deroulant"><a href="#">Nos formations</a>
                     <ul class="sous">
                         <li><a href="#">Developpement Web & Mobile</a></li>
                         <li><a href="#">Design numérique</a></li>
                         <li><a href="#">Marketing & communication digital</a></li>
                     </ul>
                </li>
-               <li><a href="#">Contacts</a></li>
-               <li><a href="#">Newsletter</a></li>
-           </ul>
-       </nav>     
+                <li><a href="#">Contacts</a></li>
+                <li><a href="#">Newsletter </a></li>
+                <div class="closeMenu"><i class="fa fa-times"></i></div>
+            </ul>
+        </nav>
+       <script src="./app.js"></script>   
     </header>
     <div class="container">
             <img src="Images/000000077481.jpg" alt="" id="none">
@@ -40,22 +44,21 @@
         <div class="amazingslider" id="amazingslider-1" style="display:block;position:relative;margin:0 auto;">
             <ul class="amazingslider-slides" style="display:none;">
                 <li><img src="Images/Slide1-accueil.jpg" alt="Bienvenue à TECH 221 est une école de formation supérieure en Informatique. Son approche pédagogique diffère des autres écoles de formation actuelles au Sénégal..."  title="Bienvenue à TECH 221 est une école de formation supérieure en Informatique. Son approche pédagogique diffère des autres écoles de formation actuelles au Sénégal..." data-texteffect="Center text" />
-<a href="#présentation-tech-221"><button class="amazingsliderbutton as-btn-orangeborder-small" style="border: 2px solid  #c90017; border-radius:12px; background-color: white; color:#c90017 ;width: 80px; height: 30px; ">Voir plus</button></a>
+<a href="#présentation-tech-221"><button class="amazingsliderbutton as-btn-orangeborder-small" style="border: 2px solid  #c90017; border-radius:5px; background-color: white; color:#c90017 ;width: 80px; height: 30px;cursor: pointer;">Voir plus</button></a>
                 </li>
                 <li><img src="Images/dev-web.jpeg" alt="Vous avez un intérêt très prononcé pour le numérique et les nouvelles  technologies ? Vous êtes curieux et appréciez le travail en équipe.."  title="Vous avez un intérêt très prononcé pour le numérique et les nouvelles  technologies ? Vous êtes curieux et appréciez le travail en équipe.." data-texteffect="Center text" />
-<a href="#dev-web"><button class="amazingsliderbutton as-btn-orangeborder-small" style="border: 2px solid  #c90017; border-radius:12px; background-color: white; color:#c90017 ; width:  80px; height: 30px;">Voir plus</button></a>
+<a href="#dev-web"><button class="amazingsliderbutton as-btn-orangeborder-small" style="border: 2px solid  #c90017; border-radius:5px; background-color: white; color:#c90017 ; width:  80px; height: 30px;cursor: pointer;">Voir plus</button></a>
                 </li>
                 <li><img src="Images/Slide3-Design.png" alt="Vous êtes doués d’une sensibilité artistique, vous êtes imaginatifs, créatifs et vous appréciez particulièrement les nouvelles technologies...."  title="Vous êtes doués d’une sensibilité artistique, vous êtes imaginatifs, créatifs et vous appréciez particulièrement les nouvelles technologies...." data-texteffect="Center text" />
-<a href="#design" ><button class="amazingsliderbutton as-btn-orangeborder-small" style="border: 2px solid  #c90017; border-radius:12px; background-color: white; color:#c90017 ;width: 80px; height: 30px; ">Voir plus</button></a>
+<a href="#design" ><button class="amazingsliderbutton as-btn-orangeborder-small" style="border: 2px solid  #c90017; border-radius:5px; background-color: white; color:#c90017 ;width: 80px; height: 30px;cursor: pointer; ">Voir plus</button></a>
                 </li>
                 <li><img src="Images/Slide4-communication-digital.jpg" alt="Vous avez un intérêt très prononcé pour le marketing et vous appréciez particulièrement le digital..."  title="Vous avez un intérêt très prononcé pour le marketing et vous appréciez particulièrement le digital..." data-texteffect="Center text" />
-                <li><img src="Images/Slide4-communication-digital.png" alt="Vous avez un intérêt très prononcé pour le marketing et vous appréciez particulièrement le digital..."  title="Vous avez un intérêt très prononcé pour le marketing et vous appréciez particulièrement le digital..." data-texteffect="Center text" />
-
-<a href="#mark-com"><button class="amazingsliderbutton as-btn-orangeborder-small" style="border: 2px solid  #c90017; border-radius:12px; background-color: white; color:#c90017; width:  80px; height: 30px;">Voir plus</button></a>
+<a href="#mark-com"><button class="amazingsliderbutton as-btn-orangeborder-small" style="border: 2px solid  #c90017; border-radius:5px; background-color: white; color:#c90017; width:  80px; height: 30px; cursor: pointer;">Voir plus</button></a>
                 </li>
             </ul>
             <ul class="amazingslider-thumbnails" style="display:none;">
                 <li><img src="Images/Slide1-accueil-tn.png" alt="Bienvenue à TECH 221 est une école de formation supérieure en Informatique. Son approche pédagogique diffère des autres écoles de formation actuelles au Sénégal..." title="Bienvenue à TECH 221 est une école de formation supérieure en Informatique. Son approche pédagogique diffère des autres écoles de formation actuelles au Sénégal..." /></li>
+                <li><img src="Images/dev-web-tn.jpeg" alt="Vous avez un intérêt très prononcé pour le numérique et les nouvelles  technologies ? Vous êtes curieux et appréciez le travail en équipe.." title="Vous avez un intérêt très prononcé pour le numérique et les nouvelles  technologies ? Vous êtes curieux et appréciez le travail en équipe.."></li>
                 <li><img src="Images/Slide3-Design-tn.png" alt="Vous êtes doués d’une sensibilité artistique, vous êtes imaginatifs, créatifs et vous appréciez particulièrement les nouvelles technologies...." title="Vous êtes doués d’une sensibilité artistique, vous êtes imaginatifs, créatifs et vous appréciez particulièrement les nouvelles technologies...." /></li>
                 <li><img src="Images/Slide4-communication-digital-tn.png" alt="Vous avez un intérêt très prononcé pour le marketing et vous appréciez particulièrement le digital..." title="Vous avez un intérêt très prononcé pour le marketing et vous appréciez particulièrement le digital..." /></li>
             </ul>
@@ -104,6 +107,7 @@
       moreText.style.display = "inline";
     }
   }
+  
 </script>
 </body>
 </html>
