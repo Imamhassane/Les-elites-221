@@ -19,25 +19,27 @@ nav .mainMenu{
     display: flex;
     list-style: none;
 }
-nav .mainMenu li a{
-    font-size: 12px;
+nav .mainMenu a{
+    font-size: 14px;
     padding: 15px;
     text-decoration: none;
     color: black;
     font-family:montserrat;
     white-space: nowrap;
-    font-weight: bold; 
+    font-weight: bold;
     display: inline-block;
-    text-transform: uppercase;
+
 }
 nav .mainMenu li a:hover{
     color: #ad8b3a;   
 }
 nav .openMenu {
     font-size: 28px;
-    margin: 20px;
+    margin-top: 25px;
+    margin-right: 16px;
     display: none;
     cursor: pointer;
+    color: #fff;
 }
 nav .mainMenu .closeMenu , .icons i {
     font-size: 28px;
@@ -92,7 +94,7 @@ nav > ul li:hover .sous{
 }
 h3{
     margin-top: 2%;
-    margin-left: 28%;
+    text-align: center;
 
     font-family:montserrat;
     color:  #ad8b3a;
@@ -125,8 +127,9 @@ p{
     background-color: #EBECF0;
     width: 32%;
     margin: 1%;
-
+    height:250px;
 }
+
 h2{
     font-family: montserrat;
     text-align: center;
@@ -154,7 +157,11 @@ h1{
 @media screen and (max-width:375px) {
     header {
         position: relative;
+        height: 0px;
     }  
+    .logo{
+        display: block;
+    }
     nav .mainMenu{
         height: 100vh;
         position: fixed;
@@ -163,8 +170,8 @@ h1{
         left: 0;
         z-index: 10;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        justify-content: left;
+        align-items: left;
         background-color:  #fff;
         transition: top 1s ease;
         display: none;
@@ -180,7 +187,6 @@ h1{
     }
     nav .mainMenu li a:hover{
         background: none;
-    
         font-size: 1.6rem;
     }
     .icons i{
@@ -189,6 +195,10 @@ h1{
     }
     span {
         display: none;
+    }
+    h4{
+        font-family: montserrat;
+        font-size: 25px;
     }
     #none{
         display: block;
@@ -199,8 +209,7 @@ h1{
         position: relative;
     }
     .container .text {
-        border: 6px #ad8b3a solid;
-        border-bottom:1px #ad8b3a solid ;
+       
         z-index: 1;
         position: absolute;
         text-align: center;
@@ -236,6 +245,14 @@ h1{
 @media screen and (min-width:376), (max-width:614px) {
     header {   
         position: relative;
+        height: 0px;
+    }
+    h4{
+        font-family: montserrat;
+        font-size: 25px;
+    }
+    .logo{
+        display: block;
     }
     nav .mainMenu{
         height: 100vh;
@@ -245,8 +262,8 @@ h1{
         left: 0;
         z-index: 10;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        justify-content: left;
+        align-items: left;
         background-color:  #fff;
         transition: top 1s ease;
         display: none;
@@ -280,8 +297,7 @@ h1{
         position: relative;
     }
     .container .text {
-        border: 6px #ad8b3a solid;
-        border-bottom:1px #ad8b3a solid ;
+       
         z-index: 1;
         position: absolute;
         text-align: center;
@@ -316,9 +332,17 @@ h1{
 }
 @media screen and (max-width:768px) {
     header {
+        position: relative;  
+       height: 0px;
+    }
+    .logo{
+        display: block;
+    }
+    h4{
+        font-family: montserrat;
+        font-size: 20px;
+        white-space: nowrap;
 
-        position: relative;
-        
     }
     nav .mainMenu{
         height: 100vh;
@@ -328,8 +352,8 @@ h1{
         left: 0;
         z-index: 10;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        justify-content: left;
+        align-items: left;
         background-color:  #fff;
         transition: top 1s ease;
         display: none;
@@ -364,8 +388,7 @@ h1{
         position: relative;
     }
     .container .text {
-        border: 6px #ad8b3a solid;
-        border-bottom:1px #ad8b3a solid ;
+       
         z-index: 1;
         position: absolute;
         text-align: center;
