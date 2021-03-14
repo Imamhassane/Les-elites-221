@@ -208,9 +208,11 @@ h1{
 }
 .test0 h2{
     color: #fff;
+    white-space: nowrap;
 }
 .test00 h2{
     color: #000;
+    white-space: nowrap;
 }
 .test p{
     color: #fff;
@@ -231,6 +233,7 @@ h1{
 }
 #decouverte h2{
     margin-top: 35px;
+    white-space: nowrap;
 }
 hr{
     width: 200px;
@@ -330,7 +333,39 @@ h6{
         width: 70%;
     }
     #accroche{
-
+        margin-top: 8%;
+        border: 1px ridge white;
+        box-shadow:  0 0 1em #313236;
+        width: 88%;
+        margin: 30px;
+        box-shadow: #fff;
+        background-color:#EBECF0 ;
+    }
+    section #présentation-tech-221{
+        display: block;
+       
+    }
+    .accueil{
+        border: 3px ridge white;
+        border-radius: 14px;
+        background-color: #EBECF0;
+        width: 70%;
+        margin: 10%;
+    }
+}
+@media screen and (min-width:376), (max-width:614px) {
+    header {   
+        position: relative;
+        height: 0px;
+    }
+    h4{
+        font-family: montserrat;
+        font-size: 25px;
+    }
+    .logo{
+        display: block;
+    }
+    nav .mainMenu{
         height: 100vh;
         position: fixed;
         top: 0;
