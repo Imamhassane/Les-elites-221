@@ -19,25 +19,27 @@ nav .mainMenu{
     display: flex;
     list-style: none;
 }
-nav .mainMenu li a{
-    font-size: 12px;
+nav .mainMenu a{
+    font-size: 14px;
     padding: 15px;
     text-decoration: none;
     color: black;
     font-family:montserrat;
     white-space: nowrap;
-    font-weight: bold; 
+    font-weight: bold;
     display: inline-block;
-    text-transform: uppercase;
+
 }
 nav .mainMenu li a:hover{
     color: #ad8b3a;   
 }
 nav .openMenu {
     font-size: 28px;
-    margin: 20px;
+    margin-top: 25px;
+    margin-right: 16px;
     display: none;
     cursor: pointer;
+    color: #fff;
 }
 nav .mainMenu .closeMenu , .icons i {
     font-size: 28px;
@@ -92,7 +94,7 @@ nav > ul li:hover .sous{
 }
 h3{
     margin-top: 2%;
-    margin-left: 28%;
+    text-align: center;
 
     font-family:montserrat;
     color:  #ad8b3a;
@@ -115,18 +117,17 @@ p{
     text-align: center;
     font-family: roboto condensed ;
     padding: 5px;
-    line-height: 25px;
+    line-height: 20px;
 }
 #more {display: none;
 }
 .accueil{
-    border: 3px ridge white;
-    border-radius: 25px;
-    background-color: #EBECF0;
-    width: 32%;
-    margin: 1%;
-
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    height:250px;
 }
+
 h2{
     font-family: montserrat;
     text-align: center;
@@ -141,7 +142,6 @@ h2{
     box-shadow: #fff;
     background-color:#EBECF0 ;
 }
-
 h1{
     display: none;
 }
@@ -151,10 +151,125 @@ h1{
 .container{
     display: none;
 }
+#dev-web{
+    height: 410px;
+    margin-top: 25px;
+    display: flex;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ad8b3a;
+}
+#design{
+    height: 410px;
+    margin-top: 25px;
+    display: flex;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#mark-com{
+    height: 410px;
+    margin-top: 25px;
+    display: flex;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ad8b3a;
+}
+.test{
+    width: 40%;
+}
+.test0{
+   
+    width: 60%;
+}
+.test img{
+    width: 485px;
+    height: 410px;
+}
+.test0 img{
+    width: 485px;
+    height: 410px;
+}
+.test0 p{
+    color: #fff;
+    text-align: justify;
+    font-family: roboto condensed;
+    padding: 5px;
+    line-height: 25px;
+}
+.test00 p{
+    color: #000;
+    text-align: justify;
+    font-family: roboto condensed;
+    padding: 5px;
+    line-height: 25px;
+}
+.test0 h2{
+    color: #fff;
+}
+.test00 h2{
+    color: #000;
+}
+.test p{
+    color: #fff;
+    text-align: justify;
+    font-family:  roboto condensed;
+    padding: 5px;
+    line-height: 20px;
+}
+#decouverte{
+    margin-top: 4%;
+    border: 1px ridge white;
+    box-shadow:  0 0 1em #313236;
+    width: 60%;
+    margin-left: 20%;
+    box-shadow: #fff;
+    background-color:#EBECF0 ;
+    height: 100px;
+}
+#decouverte h2{
+    margin-top: 35px;
+}
+hr{
+    width: 200px;
+    color: #fff;
+}
+h6{
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    margin-top: -12px;
+   }
+  .test00 h6{
+    text-align: center;
+    font-size: 20px;
+    color: #000;
+    margin-top: 0px;
+   }
+ .test0  ul{
+    color: #fff;
+    margin-top: -25px;
+   }
+   .avantages-design{
+    color: #000;
+    margin-top: -40px;
+   }
+   li{
+       list-style: none;
+   }
+   .avantages-mark{
+    margin-top: -30px;
+   }
 @media screen and (max-width:375px) {
     header {
         position: relative;
+        height: 0px;
     }  
+    .logo{
+        display: block;
+    }
     nav .mainMenu{
         height: 100vh;
         position: fixed;
@@ -163,8 +278,8 @@ h1{
         left: 0;
         z-index: 10;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        justify-content: left;
+        align-items: left;
         background-color:  #fff;
         transition: top 1s ease;
         display: none;
@@ -180,7 +295,6 @@ h1{
     }
     nav .mainMenu li a:hover{
         background: none;
-    
         font-size: 1.6rem;
     }
     .icons i{
@@ -189,6 +303,10 @@ h1{
     }
     span {
         display: none;
+    }
+    h4{
+        font-family: montserrat;
+        font-size: 25px;
     }
     #none{
         display: block;
@@ -199,8 +317,7 @@ h1{
         position: relative;
     }
     .container .text {
-        border: 6px #ad8b3a solid;
-        border-bottom:1px #ad8b3a solid ;
+       
         z-index: 1;
         position: absolute;
         text-align: center;
@@ -213,31 +330,7 @@ h1{
         width: 70%;
     }
     #accroche{
-        margin-top: 8%;
-        border: 1px ridge white;
-        box-shadow:  0 0 1em #313236;
-        width: 88%;
-        margin: 30px;
-        box-shadow: #fff;
-        background-color:#EBECF0 ;
-    }
-    section #présentation-tech-221{
-        display: block;
-       
-    }
-    .accueil{
-        border: 3px ridge white;
-        border-radius: 14px;
-        background-color: #EBECF0;
-        width: 70%;
-        margin: 10%;
-    }
-}
-@media screen and (min-width:376), (max-width:614px) {
-    header {   
-        position: relative;
-    }
-    nav .mainMenu{
+
         height: 100vh;
         position: fixed;
         top: 0;
@@ -245,8 +338,8 @@ h1{
         left: 0;
         z-index: 10;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        justify-content: left;
+        align-items: left;
         background-color:  #fff;
         transition: top 1s ease;
         display: none;
@@ -280,8 +373,7 @@ h1{
         position: relative;
     }
     .container .text {
-        border: 6px #ad8b3a solid;
-        border-bottom:1px #ad8b3a solid ;
+       
         z-index: 1;
         position: absolute;
         text-align: center;
@@ -316,9 +408,17 @@ h1{
 }
 @media screen and (max-width:768px) {
     header {
+        position: relative;  
+       height: 0px;
+    }
+    .logo{
+        display: block;
+    }
+    h4{
+        font-family: montserrat;
+        font-size: 20px;
+        white-space: nowrap;
 
-        position: relative;
-        
     }
     nav .mainMenu{
         height: 100vh;
@@ -328,8 +428,8 @@ h1{
         left: 0;
         z-index: 10;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        justify-content: left;
+        align-items: left;
         background-color:  #fff;
         transition: top 1s ease;
         display: none;
@@ -364,8 +464,7 @@ h1{
         position: relative;
     }
     .container .text {
-        border: 6px #ad8b3a solid;
-        border-bottom:1px #ad8b3a solid ;
+       
         z-index: 1;
         position: absolute;
         text-align: center;
