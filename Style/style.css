@@ -222,7 +222,7 @@ h1{
     line-height: 20px;
 }
 #decouverte{
-    margin-top: 4%;
+    margin-top: 8%;
     border: 1px ridge white;
     box-shadow:  0 0 1em #313236;
     width: 60%;
@@ -230,6 +230,7 @@ h1{
     box-shadow: #fff;
     background-color:#EBECF0 ;
     height: 100px;
+    margin-bottom: 5%;
 }
 #decouverte h2{
     margin-top: 35px;
@@ -264,6 +265,9 @@ h6{
    }
    .avantages-mark{
     margin-top: -30px;
+   }
+   #mobile-version{
+       display: none;
    }
 @media screen and (max-width:375px) {
     header {
@@ -352,6 +356,69 @@ h6{
         width: 70%;
         margin: 10%;
     }
+    #Nos-formations{
+        display: none;
+    }
+    #mobile-version{
+        display: block;
+    }
+    #dev-web{
+        height: 470px;
+        margin-top: 25px;
+        display: block;
+        width: 100%;
+        background-color: #ad8b3a;
+    }
+    #design{
+        height: 410px;
+        margin-top: 25px;
+        display: block;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #mark-com{
+        height: 518px;
+        margin-top: 78px;
+        display: block;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #ad8b3a;
+    }
+    .test{
+        width: 100%;
+    }
+    .test0{
+        width: 100%;
+    }
+    .test img{
+        width: 100%;
+        height: 200px;
+    }
+    .test0 p{
+        color: #fff;
+        text-align: justify;
+        font-family: roboto condensed;
+        padding: 5px;
+        line-height: 25px;
+    }
+    .test0 h2{
+        color: #fff;
+      
+    }
+    .test00 p{
+        color: #000;
+        text-align: justify;
+        font-family: roboto condensed;
+        padding: 5px;
+        line-height: 25px;
+    }
+    .test00 h2{
+        color: #000;
+        white-space: nowrap;
+    }
+    
 }
 @media screen and (min-width:376), (max-width:614px) {
     header {   
