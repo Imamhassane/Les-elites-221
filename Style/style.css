@@ -231,12 +231,61 @@ hr{
    text-align: justify;
    margin-left: 4%;
 }
+#nos-formateurs{
+    width: 87%;
 
+}
+#nos-formateurs fieldset {
+    width: 95%;
+    margin-left: 9%;
+    text-align: center;
+    height: 470px;
+    display: flex;
+    
+}
+.formateurs{
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 25px;
+    border: 3px ridge white;
+    border-radius: 14px;
+    background-color: #fff;
+    margin: 1%;
+}
+.formateurs:hover{
+    background-color: #EBECF0;
+}
+.images-formateurs{
+    width: 250px;
+    height: 170px;
+    border-radius: 14px;
+    cursor: pointer;
+}
+.formateurs h2 {
+    color: black;
+    cursor: pointer;
+}
+.formateurs h3{
+    color: black;
+    cursor: pointer;   
+    font-size: 13px;
+}
+.formateurs p {
+    text-align: justify;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+legend{
+    font-size: 30px;
+    font-family: montserrat;
+    color: #ad8b3a;
+
+}
    #mobile-version{
        display: none;
    }
    #contact{
-       margin-top: 10%;  
+       margin-top: 8%;  
    }
    input{
     margin-left: 8%;
@@ -365,6 +414,7 @@ footer ul li {
     width: 25px;
     height: 25px;
 }
+
 @media screen and (max-width:375px) {
     header {
         position: relative;  
@@ -712,7 +762,7 @@ footer ul li {
         
     }
     #contact{
-        margin-top: 25%;  
+        margin-top: -10%;  
     }
     input{
         margin-left: 14%;
@@ -801,5 +851,7 @@ footer ul li {
     #section{
         margin-top: 48%;
     }
-
+    #nos-formateurs  {
+        display: none;
+    
 }
